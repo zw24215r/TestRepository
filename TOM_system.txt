@@ -1,0 +1,22 @@
+@startuml
+@startuml
+:student: -left-> (
+    skinparam packageStyle rectangle
+)
+skinparam packageStyle rectangle
+actor student
+rectangle ElCampus {
+    usecase "課題提出" as UC1
+    usecase "お知らせ閲覧" as UC2
+    usecase "小テスト" as UC3
+    usecase "課題をダウンロード" as UC4
+}
+rectangle UniPa {
+    usecase "課題提出" as UC5
+    usecase "お知らせ閲覧" as UC6
+    usecase "小テスト" as UC7
+    usecase "課題をダウンロード" as UC8
+}
+
+@enduml
+
